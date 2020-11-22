@@ -1,0 +1,8 @@
+stepDefinitions\SecurePayTest.class
+com\securepay\testdata\ContactDetails.class
+com\securepay\webpages\SecurePayHomePage.class
+runners\TestRunner.class
+com\securepay\webpages\GoogleSearchResultsPage.class
+com\securepay\webpages\GooglePage.class
+utilities\ConfigFileReader.class
+com\securepay\webpages\SecurePayContactUsPage.class

@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6883976900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SecurePayTest.browserSetUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User navigates to Contact Us page of SecurePay and enters the randomly generated Test Data in the Contact Us form",
+        "description": "",
+        "id": "securepay---contact-us-page;user-navigates-to-contact-us-page-of-securepay-and-enters-the-randomly-generated-test-data-in-the-contact-us-form",
+        "after": [
+          {
+            "result": {
+              "duration": 2417713400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SecurePayTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1945174400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Google Search page",
+            "match": {
+              "location": "SecurePayTest.navigateToGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1354556900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searches for SecurePay on Google",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SecurePay",
+                  "offset": 18
+                }
+              ],
+              "location": "SecurePayTest.searchSecurePay(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4799390800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on SecurePay website from the search results to navigate to SecurePay",
+            "match": {
+              "location": "SecurePayTest.navigateSecurePay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1082011200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to Contact Us page in the SecurePay website",
+            "match": {
+              "location": "SecurePayTest.clickContactUs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4247970000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fills the Contact Us form with the random data generated using a library",
+            "match": {
+              "location": "SecurePayTest.enterContactInfo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SecurePay - Contact Us page",
+    "description": "\r\nDescription: The purpose of this test is to navigate to Contact Us page of SecurePay and enter the data in the Contact Us form",
+    "id": "securepay---contact-us-page",
+    "keyword": "Feature",
+    "uri": "SecurePayContactUs.feature"
+  }
+]
